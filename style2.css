@@ -733,3 +733,106 @@ cursor: pointer;
 .scroll-btn.right {
   right: 5px;
 }
+
+
+
+/* Row 3 */
+/* ......................................................................................... */
+
+.row-3 {
+  width: 100%;
+  background-color: #c5caca;
+  padding: 25px 0.8px;
+  box-sizing: border-box;
+}
+
+.row-3-inner {
+  background-color: white;
+  padding: 15px;
+  overflow: hidden;
+} 
+
+.row-3-text {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.row-3-text h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+
+#row-3-inner-text {
+  color: rgb(51, 139, 168);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#row-3-inner-text:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.row-3-images {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  max-width: 100%;
+  /* scrollbar-width:thin; */
+}
+
+.row-3-images::-webkit-scrollbar {
+  display: none;
+}
+
+.row3-con {
+  flex: 0 0 auto;
+  width: 280px;
+  height: 220px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.row3-con:hover {
+  transform: scale(1.05);
+}
+
+.scroll-container {
+  position: relative;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.scroll-btn.left {
+  left: 5px;
+}
+
+.scroll-btn.right {
+  right: 5px;
+}
